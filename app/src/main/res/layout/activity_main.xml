@@ -41,9 +41,13 @@
         android:layout_marginTop="16dp"
         android:rating="3"
         />
-
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <RatingBar
+        android:translationX="5dp"
         style="@style/MyRatingBarTwo"
         android:id="@+id/ratingBar6"
         android:layout_width="wrap_content"
@@ -53,5 +57,14 @@
         android:layout_marginTop="16dp"
         android:rating="3"
         />
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="1234567"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
 
 </LinearLayout>
